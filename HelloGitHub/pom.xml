@@ -11,12 +11,12 @@
 		<repository>
 			<id>MyNexus</id>
 			<name>Releases</name>
-			<url>http://localhost:8080/nexus-2.1.2/content/repositories/releases</url>
+			<url>http://127.0.0.1:8090/nexus/content/repositories/releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>MyNexus</id>
 			<name>Snapshots</name>
-			<url>http://127.0.0.1:8080/nexus-2.1.2/content/repositories/snapshots/</url>
+			<url>http://127.0.0.1:8090/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<dependencies>
@@ -30,11 +30,6 @@
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>2.0.1</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-			<version>2.0</version>
 		</dependency>
 	</dependencies>
 	<build>
